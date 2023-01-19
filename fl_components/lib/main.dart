@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       onGenerateRoute: (settings) {
         print(settings);
         return MaterialPageRoute(
-          builder: (context) => const AlertScreen()
+          builder: (context) => const Listview1Screen()
         );
       },
     );
