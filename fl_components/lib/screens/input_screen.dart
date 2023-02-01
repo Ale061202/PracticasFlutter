@@ -16,7 +16,6 @@ const InputsScreen({ Key? key }) : super(key: key);
           padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
           child: Column(
             children: const [
-
               CustomInputField(labelText: 'Nombre', hintText: 'Nombre del usuario', helperText: 'Nombre del usuario',),
               SizedBox(height: 30,),
 
